@@ -1,0 +1,30 @@
+{
+  "name": "ddup/logger",
+  "description": "日志",
+  "type": "library",
+  "keywords": [
+    "ddup",
+    "logger",
+    "cli-logger",
+    "aliyun-logger"
+  ],
+  "require": {
+    "lokielse/aliyun-open-api-sls": "^1.0",
+    "ddup/part": "^1.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ddup\\Logger\\": "src",
+      "Ddup\\Logger\\Test\\": "test"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.5"
+  },
+  "authors": [
+    {
+      "name": "xingbo.li",
+      "email": "1711293058@qq.com"
+    }
+  ]
+}
