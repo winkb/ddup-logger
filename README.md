@@ -1,5 +1,9 @@
 # ddup-logger
 
+```shell script
+composer require ddup/logger
+```
+
 ```php
 function getLogger($client){
     switch ($client){
